@@ -1,2 +1,2 @@
 # masterDataPipeline
-Default Master Data Pipeline and template with Python, Postgres and Airflow
+Default Master Data Pipeline and template with Python, Postgres and Mesos/Aurora
