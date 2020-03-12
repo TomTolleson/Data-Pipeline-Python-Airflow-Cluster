@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    all-spark-notebook:
+        ports:
+            - '8888:8888'
+            - '4040:4040'
+        volumes:
+            - '~:/home/jovyan/workspace'
+        image: jupyter/all-spark-notebook
